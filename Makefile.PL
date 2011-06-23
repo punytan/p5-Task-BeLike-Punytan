@@ -53,7 +53,7 @@ requires 'Time::HiRes';
 requires 'Data::Dump';
 requires 'Data::Dump::Streamer';
 requires 'Data::Dumper';
-
+requires 'Data::Dumper::Concise';
 requires 'Devel::NYTProf';
 
 # email
@@ -80,6 +80,8 @@ requires 'YAML::Tiny';
 
 requires 'Web::Scraper';
 requires 'XML::Simple';
+requires 'XML::RSS';
+requires 'XML::Parser';
 
 requires 'HTML::Entities::Recursive';
 
@@ -91,6 +93,8 @@ requires 'Imager';
 
 requires 'URI';
 requires 'LWP';
+requires 'LWP::Protocol::https';
+requires 'Mozilla::CA';
 requires 'WWW::NicoVideo::Download';
 requires 'WWW::YouTube::Download';
 
@@ -119,14 +123,13 @@ requires 'Net::OAuth';
 requires 'Net::SSLeay';
 requires 'OAuth::Lite';
 
-# PSGI/Plack
+# PSGI/Plack/Server
 
 requires 'PSGI';
 requires 'Task::Plack';
 
 requires 'Plack';
 requires 'Plack::Middleware::ConsoleLogger';
-requires 'Plack::Middleware::DoCoMoGUID';
 requires 'Plack::Middleware::Session';
 
 requires 'Starlet';
@@ -134,6 +137,10 @@ requires 'Starman';
 requires 'Twiggy';
 
 requires 'Tatsumaki';
+
+requires 'Starlet';
+requires 'Starman';
+requires 'Twiggy';
 
 # terminal
 
