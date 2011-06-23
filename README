@@ -1,11 +1,11 @@
-This is Perl module Task::BeLike::Punytan.
+This is Perl module Task::BeLike::PUNYTAN.
 
 INSTALLATION
 
-Task::BeLike::Punytan installation is straightforward. If your CPAN shell is set up,
+Task::BeLike::PUNYTAN installation is straightforward. If your CPAN shell is set up,
 you should just be able to do
 
-    % cpan Task::BeLike::Punytan
+    % cpan Task::BeLike::PUNYTAN
 
 Download it, unpack it, then build it as per the usual:
 
@@ -18,10 +18,10 @@ Then install it:
 
 DOCUMENTATION
 
-Task::BeLike::Punytan documentation is available as in POD. So you can do:
+Task::BeLike::PUNYTAN documentation is available as in POD. So you can do:
 
-    % perldoc Task::BeLike::Punytan
+    % perldoc Task::BeLike::PUNYTAN
 
-to read the documentation online with your favorite pager.
+To read the documentation online with your favorite pager.
 
 punytan

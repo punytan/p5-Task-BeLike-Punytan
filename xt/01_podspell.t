@@ -7,4 +7,4 @@ all_pod_files_spelling_ok('lib');
 __DATA__
 punytan
 punytan@gmail.com
-Task::BeLike::Punytan
+Task::BeLike::PUNYTAN

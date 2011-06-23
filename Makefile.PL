@@ -1,6 +1,6 @@
 use inc::Module::Install;
-name 'Task-BeLike-Punytan';
-all_from 'lib/Task/BeLike/Punytan.pm';
+name 'Task-BeLike-PUNYTAN';
+all_from 'lib/Task/BeLike/PUNYTAN.pm';
 
 # event
 
