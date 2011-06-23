@@ -1,4 +1,7 @@
 Revision history for Perl extension Task::BeLike::PUNYTAN
 
+0.02    Thu Jun 23 21:12:08 2011
+        - add / remove modules
+
 0.01    Sat Dec 11 01:42:16 2010
         - original version
