@@ -1,7 +1,3 @@
-use inc::Module::Install;
-name 'Task-BeLike-PUNYTAN';
-all_from 'lib/Task/BeLike/PUNYTAN.pm';
-
 # event
 
 requires 'AnyEvent';
@@ -29,6 +25,7 @@ requires 'MP3::Tag';
 requires 'DBI';
 requires 'DBD::SQLite';
 requires 'DBD::mysql';
+requires 'DBIx::Handler';
 
 # encrypt
 
@@ -41,6 +38,7 @@ requires 'Digest::SHA1';
 
 # validate
 
+requires 'Data::Validator';
 requires 'Data::Validate::URI';
 
 # time
@@ -83,8 +81,6 @@ requires 'XML::Simple';
 requires 'XML::RSS';
 requires 'XML::Parser';
 
-requires 'HTML::Entities::Recursive';
-
 # image
 
 requires 'Imager';
@@ -111,6 +107,8 @@ requires 'Test::More';
 requires 'Test::Spelling';
 requires 'Test::Perl::Critic';
 requires 'Test::Pod';
+requires 'Test::Pretty';
+requires 'Test::mysqld';
 
 # Moooooo[o|u]se
 
@@ -126,8 +124,6 @@ requires 'OAuth::Lite';
 # PSGI/Plack/Server
 
 requires 'PSGI';
-requires 'Task::Plack';
-
 requires 'Plack';
 requires 'Plack::Middleware::ConsoleLogger';
 requires 'Plack::Middleware::Session';
@@ -154,10 +150,13 @@ requires 'Text::MeCab';
 requires 'Text::Xslate';
 requires 'Unicode::Normalize';
 
-tests 't/*.t';
-author_tests 'xt';
+# my modules
 
-test_requires 'Test::More';
-auto_set_repository;
-auto_include;
-WriteAll;
+requires 'AnyEvent::Twitter';
+requires 'App::cpanmigrate';
+requires 'Config::PP';
+requires 'Constant::Exporter';
+requires 'HTML::Entities::Recursive';
+requires 'PAD';
+requires 'sane';
+
